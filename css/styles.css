@@ -1,0 +1,138 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logol {
+  color: #2e2f42;
+}
+.navigation a {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #2e2f42;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.navigation .link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address {
+  font-style: normal;
+}
+
+.contacts a {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #434455;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.openingh {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.opening {
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.teamh {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.teamp {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contenth {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.teamul {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footerpr {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.logolf {
+  color: #f4f4fd;
+}
