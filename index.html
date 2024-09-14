@@ -1,209 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8" />
+    <title>webstudio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="body">
-    <!--HEADER-->
-    <header>
+  <body>
+    <header class="hat">
       <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logol">Studio</span></a
-        >
+        <a class="logo-dark" href="/"> <span>Web</span>studio</a>
 
-        <ul class="navigation">
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+        <ul>
+          <li><a class="stud-act" href="/">Studio</a></li>
+          <li><a class="navi" href="#pf">Portfolio</a></li>
+          <li><a class="navi" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <address class="address">
-        <ul class="contacts">
+
+      <address>
+        <ul>
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="cont" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="cont" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <!--SECTION ONE-->
-      <section class="opening">
-        <h1 class="openingh">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+      <section class="hero-sect">
+        <h1 class="title-hero">
+          Effective solutions <br />
+          for your business
+        </h1>
+        <button class="order-butt" type="button">Order servise</button>
       </section>
-      <!--SECTION TWO-->
-      <section class="contents">
-        <h2 class="contenth">content</h2>
-        <ul class="content">
+
+      <section class="a-sect">
+        <h2 hidden>Advantages</h2>
+        <ul>
           <li>
-            <h3 class="teamh">Strategy</h3>
-            <p class="teamp">
+            <h3 class="title-third">Strategy</h3>
+            <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="teamh">Punctuality</h3>
-            <p class="teamp">
+            <h3 class="title-third">Punctuality</h3>
+            <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="teamh">Diligence</h3>
-            <p class="teamp">
+            <h3 class="title-third">Diligence</h3>
+            <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="teamh">Technologies</h3>
-            <p class="teamp">
+            <h3 class="title-third">Technologies</h3>
+            <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <!--SECTION THREE-->
-      <section class="team">
-        <h2 class="contenth">Our Team</h2>
+
+      <section class="team-sect">
+        <h2 class="title-second">Our team</h2>
         <ul>
-          <li class="teamul">
+          <li class="card-team">
             <img
               src="./images/Mark.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3 class="teamh">Mark Guerrero</h3>
-            <p class="teamp">Product Designer</p>
+            <h3 class="title-third">Mark Guerrero</h3>
+            <p>Product Designer</p>
           </li>
-          <li class="teamul">
+          <li class="card-team">
             <img
               src="./images/Tom.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3 class="teamh">Tom Ford</h3>
-            <p class="teamp">Frontend Developer</p>
+            <h3 class="title-third">Tom Ford</h3>
+            <p>Frontend Developer</p>
           </li>
-          <li class="teamul">
+          <li class="card-team">
             <img
               src="./images/Kamila.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3 class="teamh">Camila Garcia</h3>
-            <p class="teamp">Marketing</p>
+            <h3 class="title-third">Camila Garcia</h3>
+            <p>Marketing</p>
           </li>
-          <li class="teamul">
+          <li class="card-team">
             <img
               src="./images/Daniel.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3 class="teamh">Daniel Wilson</h3>
-            <p class="teamp">UI Designer</p>
+            <h3 class="title-third">Daniel Wilson</h3>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
-      <!--SECTION FOUR-->
-      <section class="portfolio">
-        <h2 class="contenth">Our Portfolio</h2>
-        <ul class="portfolioul">
-          <li>
-            <img
-              src="./images/banking.jpg"
-              alt="Banking app"
-              width="360"
-              height="300"
-            />
-            <h3 class="teamh">Banking App</h3>
-            <p class="teamp">App</p>
+
+      <section class="p-sect">
+        <h2 class="title-second" id="pf">Our portfolio</h2>
+        <ul>
+          <li class="card-p">
+            <img src="./images/banking.jpg" alt="" width="360" height="300" />
+            <h3 class="title-third">Banking app</h3>
+            <p>App</p>
           </li>
-          <li>
-            <img
-              src="./images/cashless.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="teamh">Cashless Payment</h3>
-            <p class="teamp">Marketing</p>
+          <li class="card-p">
+            <img src="./images/cashlesh.jpg" alt="" width="360" height="300" />
+            <h3 class="title-third">Cashless payment</h3>
+            <p>Marketing</p>
           </li>
-          <li>
+          <li class="card-p">
             <img
               src="./images/meditation.jpg"
-              alt="Meditation App"
+              alt=""
               width="360"
               height="300"
             />
-            <h3 class="teamh">Meditation App</h3>
-            <p class="teamp">App</p>
+            <h3 class="title-third">Meditation app</h3>
+            <p>App</p>
           </li>
-          <li>
-            <img
-              src="./images/taxi.jpg"
-              alt="Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="teamh">Taxi Service</h3>
-            <p class="teamp">Marketing</p>
+          <li class="card-p">
+            <img src="./images/tax.jpg" alt="" width="360" height="300" />
+            <h3 class="title-third">Taxi service</h3>
+            <p>Marketing</p>
           </li>
-          <li>
-            <img
-              src="./images/screen.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="teamh">Screen Illustrations</h3>
-            <p class="teamp">Design</p>
+          <li class="card-p">
+            <img src="./images/scren.jpg" alt="" width="360" height="300" />
+            <h3 class="title-third">Screen illustrations</h3>
+            <p>Design</p>
           </li>
-          <li>
-            <img
-              src="./images/onlline.jpg"
-              alt="Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="teamh">Online Courses</h3>
-            <p class="teamp">Marketing</p>
+
+          <li class="card-p">
+            <img src="./images/online.jpg" alt="" width="360" height="300" />
+            <h3 class="title-third">Online courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <!--FOOTER-->
-    <footer class="footer">
-      <a class="logo" href="./index.html"
-        >Web<span class="logolf">Studio</span></a
-      >
-      <p class="footerpr">
+
+    <footer class="foot-sect">
+      <a class="logo-light" href="/"> <span>Web</span>studio</a>
+      <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
